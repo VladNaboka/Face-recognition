@@ -1,0 +1,41 @@
+Politic:
+img/Politic\5.jpg
+img/Politic\0003_1.jpg
+img/Politic\007.jpg
+img/Politic\03-25.jpg
+img/Politic\5.jpg
+img/Politic\Askar_mamin_2.jpg
+img/Politic\c7a41bc5044dfddcf17aedae4e563939.jpg
+img/Politic\murz2676-1080.jpg
+img/Politic\murz9188-1080.jpg
+img/Politic\sayn_1.jpg
+img/Politic\sha-0851-1080.jpg
+img/Politic\_aps7jBSn200.jpg
+PoliticOthers:
+img/Politic/Others\0FBB7F82-55B3-4413-AA3E-6F8D3D9E2927_cx33_cy22_cw34_w1200_r1.jpg
+img/Politic/Others\c5055b25-61a5-42e9-a6f6-5dafa4a4bf06_tv_w1200_r1.jpg
+Media:
+img/Media\1650491073_33-vsegda-pomnim-com-p-roza-rimbaeva-foto-37.jpg 1.83
+img/Media\17437974_734198423406887_5259941117633232896_n.jpg 1.44
+img/Media\214978-image.jpg 1.53
+img/Media\61d8185c7ec1d.jpg 2.25
+img/Media\Rymbaeva_140217.jpg 1.6
+MediaOthers:
+img/Media/Others\25112-6-maira_liyasova_aza_sta_ru-e1514177746765.jpg 3.0
+img/Media/Others\news_full1596455150c7799c4c963808c3621e4e8f22bd8734.jpg 1.15
+Bloger:
+img/Bloger\2133b974e5707a6eaa99b0c94cefe90b.jpg 1.4
+img/Bloger\87718_original.jpg 1.34
+img/Bloger\maxresdefault (1).jpg 1.63
+img/Bloger\Без-имени-1-1-1.jpg 1.35
+BlogerOthers:
+img/Bloger/Others\524ccc5a9aa69bb01c151454f4cd5b49.jpg 1.46
+img/Bloger/Others\BMFwOmzCcAEpmmw.jpg 1.54
+img/Bloger/Others\maxresdefault (3).jpg 1.55
+img/Bloger/Others\maxresdefault (5).jpg 1.55
+img/Bloger/Others\maxresdefault (6).jpg 1.55
+img/Bloger/Others\news_full163411400412886ef24c88e606dc9f61f85c8c7889.jpg 1.32
+img/Bloger/Others\O1CN01nhm79v1JKAJMORH5O_!!6000000001009-0-tbvideo.jpg 2.04
+img/Bloger/Others\torebaev.jpg 0.99
+img/Bloger/Others\unnamed.jpg 1.31
+

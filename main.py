@@ -31,11 +31,15 @@ start_time = time.time()
 # photosMedia = ["img/Media/5f439da932891166202853.jpg", "img/Media/3_4c2f6b27.jpg", "img/Media/10.jpg",
 #                "img/Media/60e5c04bc5ac7468782889.jpg", "img/Media/60e25943f5fb88ab0c91ac1a7a0d666c.jpg"]
 # photosMedia = list(paths.list_images('Media'))
+photosMediaF = glob.glob('img/Media/Others/*.jpg')
 photosMedia = glob.glob('img/Media/*.jpg')
+photosPoliticF = glob.glob('img/Politic/Others/*.jpg' or 'img/Politic/Others/*.jpeg')
 photosPolitic = glob.glob('img/Politic/*.jpg' or 'img/Politic/*.jpeg')
+photosBlogF = glob.glob('img/Bloger/Others/*.jpg' or 'img/Bloger/Others/*.jpeg' or 'img/Bloger/Others/*.png')
 photosBlog = glob.glob('img/Bloger/*.jpg' or 'img/Bloger/*.jpeg' or 'img/Bloger/*.png')
 
 def faces_determine(imgMain, otherFeces, nums):
+    start_timeM = time.time()
     imgM = face_recognition.load_image_file(imgMain)
     img_encod = face_recognition.face_encodings(imgM)[0]
 
@@ -43,6 +47,9 @@ def faces_determine(imgMain, otherFeces, nums):
     imgOth_encod = face_recognition.face_encodings(imgOth)[nums]
     result = face_recognition.compare_faces([img_encod], imgOth_encod)
     print(result)
+    # if result == [False]:
+    #     with open("False.txt", "a", encoding="utf-8") as file:
+    #         print(otherFeces, file=file)
 
 start_timeP = time.time()
 scoreP = 0
@@ -51,6 +58,7 @@ for i in range(0, len(photosPolitic)):
     f = face_recognition.load_image_file(photosPolitic[i])
     loc = face_recognition.face_locations(f)
     scoreP += 1
+    # print(photosPolitic[i])
     print(scoreP, end=' ')
     faces_determine("img/Politic/201902251157119.jpg", photosPolitic[i], len(loc) - 1)
 print(round(time.time() - start_timeP, 2))
